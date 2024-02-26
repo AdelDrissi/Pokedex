@@ -34,14 +34,14 @@ body {
   height: 40px;
 }
 .titleSection button {
-  border: 1px solid red;
-  width: 190px;
-  border-radius: 10px 10px;
+  border: none;
+  width: 200px;
+  border-radius: 10px;
   height: 60px;
   color: white;
   background: #006cbf;
-  font-size: 15px;
-  margin: 4%;
+  font-size: 19px;
+  margin: 20px;
 }
 .titleSection button:hover {
   cursor: pointer;
