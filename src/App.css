@@ -4,10 +4,12 @@
   letter-spacing: 3px;
   font-family: 'sans-serif';
   text-transform: uppercase;
+  flex-direction: column;
 }
 
 .poke-world {
   color: white;
+  display: flex;
 }
 
 body {
@@ -44,4 +46,16 @@ body {
 .titleSection button:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.DisplaySection {
+  text-align: center;
+}
+
+.DisplaySection img {
+  width: 20%;
+}
+
+.DisplaySection h1 {
+  margin: 10px;
 }
