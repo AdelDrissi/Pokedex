@@ -5,6 +5,7 @@ function App() {
   const [pokemonName, setPokemonName] = useState('');
   const [pokemonChoice, setPokemonChoice] = useState(false);
   const [pokemon, setPokemon] = useState({
+    
     name: '',
     species: '',
     img: '',
